@@ -36,7 +36,7 @@ print("Cosine Similarity Matrix:\n")
 print(np.round(similarity_matrix, 2))
 
 # Show similar pairs (threshold > 0.5 and not same text)
-threshold = 0.5
+threshold = 0.7
 print("\nSimilar News Pairs (above threshold):\n")
 for i in range(len(df)):
     for j in range(i + 1, len(df)):
